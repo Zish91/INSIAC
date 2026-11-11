@@ -44,15 +44,15 @@ Points techniques :
 
 Get-ADDomain lancé depuis PAR-ADM-01 (administration de l'AD depuis le poste dédié) :
 
-![Get-ADDomain](captures/tp1screen01-get-addomain.png)
+![Get-ADDomain](captures/tp1screen01.png)
 
 Page d'accueil GLPI (installation terminée, comptes par défaut sécurisés, données de démo désactivées) :
 
-![Accueil GLPI](captures/tp1screen02-accueil-glpi.png)
+![Accueil GLPI](captures/tp1screen02.png)
 
 Liste des ordinateurs inventoriés, Parc > Ordinateurs (les 3 machines) :
 
-![Inventaire GLPI](captures/tp1screen03-inventaire.png)
+![Inventaire GLPI](captures/tp1screen03.png)
 
 ## 3. Inventaire de l'Active Directory (script et CSV)
 
