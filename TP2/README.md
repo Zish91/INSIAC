@@ -16,7 +16,7 @@ Deux entités créées sous l'entité racine, pour les deux sites de MERIDIAN :
 - Paris
 - Lyon
 
-Capture : captures/tp2sc1.png
+![Entités Paris et Lyon](captures/tp2sc1.png)
 
 ### Groupes et comptes de test
 Deux groupes pour la chaîne de support N1 / N2, et trois comptes de test reproduisant les rôles réels :
@@ -27,12 +27,12 @@ Deux groupes pour la chaîne de support N1 / N2, et trois comptes de test reprod
 | p.minjha | Technician | Support N1 | Technicien de traitement N1 |
 | b.saiah | Admin | Administrateurs N2 | Escalade N2 |
 
-Capture : captures/tp2scr3.png
+![Comptes de test et leurs groupes](captures/tp2scr3.png)
 
 ### Catégories ITIL
 Six catégories de tickets créées : Poste de travail, Comptes et accès, Impression, Réseau, Applications métier, Serveurs.
 
-Capture : captures/tp2scr4.png
+![Catégories ITIL](captures/tp2scr4.png)
 
 ### SLA
 Un accord de niveau de services (SLM) "SLA MERIDIAN" contenant huit SLA reprenant la matrice de priorité du cours.
@@ -45,7 +45,7 @@ Rappel : prise en charge = TTO (Time To Own), résolution = TTR (Time To Resolve
 | P3 | 2 h | 2 jours |
 | P4 | 1 jour | 5 jours |
 
-Capture : captures/tp2scr5.png
+![SLA matrice P1 à P4](captures/tp2scr5.png)
 
 ---
 
@@ -70,7 +70,9 @@ La priorité est calculée sur impact x urgence, jamais sur le statut hiérarchi
 
 Les sollicitations 1 à 8 ont été créées et traitées en tickets. La 9 a été ouverte comme Problème (recherche de cause racine) et la 10 comme Changement (modification planifiée).
 
-Captures : captures/tp2scr6a.png, captures/tp2scr6b.png
+![Liste des tickets qualifiés et traités](captures/tp2scr6a.png)
+
+![Problème - pertes réseau Lyon récurrentes](captures/tp2scr6b.png)
 
 ### Question 2.1 - Lesquelles sont liées ? Quel processus ITIL ?
 
@@ -97,7 +99,7 @@ Message 2 - Point d'étape :
 Message 3 - Rétablissement :
 "L'ERP comptabilité est de nouveau opérationnel. Vous pouvez reprendre vos opérations, y compris les travaux de clôture. Un contrôle a été effectué pour confirmer le bon fonctionnement. En cas d'anomalie, merci de nous le signaler via un ticket."
 
-Capture : captures/tp2scr7.png
+![Incident majeur ERP et les trois messages](captures/tp2scr7.png)
 
 ---
 
@@ -117,7 +119,7 @@ Changement créé pour la mise à jour de l'hyperviseur, prévu samedi hors heur
 
 Point important : une fiche de changement n'autorise pas sa mise en production. Elle doit être validée par le responsable avant exécution.
 
-Capture : captures/tp2scr8.png
+![Demande de changement hyperviseur](captures/tp2scr8.png)
 
 ---
 
@@ -129,7 +131,7 @@ Article 1 : "Débloquer un compte dont le mot de passe a expiré" - vérificatio
 
 Article 2 : "Résoudre un problème d'impression (imprimante ne répond plus)" - contrôle de l'imprimante et de la file, redémarrage du spouleur, contournement possible, page de test, critères d'escalade N2.
 
-Capture : captures/tp2scr9.png
+![Les deux articles de base de connaissances](captures/tp2scr9.png)
 
 ---
 
@@ -139,19 +141,3 @@ Capture : captures/tp2scr9.png
 - La partie SLA est la plus déroutante de la config : un SLA n'a pas de champ "priorité", c'est le nommage (P1, P2...) qui sert de repère, et il faut bien distinguer TTO (prise en charge) et TTR (résolution). J'avais d'ailleurs inversé deux types au départ.
 - Un ticket clôturé est verrouillé : pour corriger la priorité du ticket Lyon, j'ai dû le rouvrir (changer le statut) avant de pouvoir modifier le champ.
 - Attention à ne pas confondre Problème (recherche de cause d'incidents récurrents) et Changement (modification planifiée) : j'avais d'abord créé la MAJ hyperviseur comme un problème avant de la basculer en changement.
-
----
-
-## Liste des captures
-
-| Fichier | Contenu |
-|---|---|
-| captures/tp2sc1.png | Entités Paris et Lyon |
-| captures/tp2scr3.png | Comptes de test et leurs groupes |
-| captures/tp2scr4.png | Catégories ITIL |
-| captures/tp2scr5.png | SLA (matrice P1 à P4) |
-| captures/tp2scr6a.png | Liste des tickets qualifiés et traités |
-| captures/tp2scr6b.png | Problème (pertes réseau Lyon récurrentes) |
-| captures/tp2scr7.png | Incident majeur ERP et les trois messages |
-| captures/tp2scr8.png | Demande de changement hyperviseur |
-| captures/tp2scr9.png | Les deux articles de base de connaissances |
